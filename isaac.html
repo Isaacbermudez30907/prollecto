@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Isaac Bermúdez Gil</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #2b2b2b;
+    }
+
+    .cv {
+      max-width: 1050px;
+      margin: 50px auto;
+      background: #f9fbfd;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+
+    .header {
+      text-align: center;
+      padding: 50px 30px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+    }
+
+    .header img {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.8em;
+    }
+
+    .header h3 {
+      margin: 0;
+      font-weight: 400;
+      opacity: 0.95;
+    }
+
+    .contact {
+      margin-top: 18px;
+      font-size: 1em;
+    }
+
+    .content {
+      padding: 45px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.1);
+    }
+
+    .card.full {
+      grid-column: 1 / -1;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 18px;
+      color: #1e3c72;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      width: 55px;
+      height: 4px;
+      background: #2a5298;
+      position: absolute;
+      bottom: -7px;
+      left: 0;
+      border-radius: 3px;
+    }
+
+    p {
+      line-height: 1.8;
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    ul {
+      margin-top: 15px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .job {
+      background: #eef4ff;
+      padding: 20px;
+      border-radius: 14px;
+      margin-top: 20px;
+    }
+
+    .job strong {
+      color: #1e3c72;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #2a5298;
+      color: white;
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      margin: 6px 6px 0 0;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+  <div class="header">
+    <img src="imagen.jpeg" alt="Foto de perfil">
+    <h1>Isaac Bermúdez Gil</h1>
+    <h3>Gerente | Gestión Tecnológica y Administrativa</h3>
+
+    <div class="contact">
+       isaacgil30907@gmail.com |  729 732 0601 |  México
+    </div>
+  </div>
+
+  <div class="content">
+
+    <div class="card full">
+      <h2>Perfil Profesional</h2>
+      <p>
+        Profesional con amplia orientación a la gestión tecnológica y administrativa,
+        con experiencia en liderazgo de equipos de trabajo, coordinación de proyectos
+        y optimización de procesos empresariales. Posee habilidades analíticas,
+        pensamiento estratégico y enfoque en resultados, así como capacidad para
+        adaptarse a entornos tecnológicos cambiantes y de alta exigencia.
+      </p>
+    </div>
+
+    <div class="card full">
+      <h2>Experiencia Laboral</h2>
+
+      <div class="job">
+        <strong>Microsoft</strong> — Gerente de Operaciones Tecnológicas<br>
+        <small>Septiembre 2020 – Actualidad</small>
+        <ul>
+          <li>Dirección y supervisión de equipos multidisciplinarios enfocados en tecnología y administración.</li>
+          <li>Planeación estratégica de proyectos tecnológicos a corto, mediano y largo plazo.</li>
+          <li>Implementación de mejoras en procesos internos para aumentar la eficiencia operativa.</li>
+          <li>Análisis de indicadores de desempeño y toma de decisiones basadas en datos.</li>
+          <li>Gestión de recursos humanos, financieros y tecnológicos.</li>
+          <li>Coordinación con otras áreas para asegurar el cumplimiento de objetivos corporativos.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Educación</h2>
+      <ul>
+        <li>Licenciatura en área Tecnológica / Administrativa.</li>
+        <li>Formación continua en tecnologías de la información.</li>
+        <li>Capacitación constante en liderazgo y gestión empresarial.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español — Nativo (lectura, escritura y conversación).</li>
+        <li>Inglés — Intermedio (comprensión técnica y comunicación básica).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>Administración de redes y telecomunicaciones.</li>
+        <li>Implementación de medidas de ciberseguridad.</li>
+        <li>Soporte técnico a usuarios y sistemas.</li>
+        <li>Desarrollo y mantenimiento de sitios web.</li>
+        <li>Gestión de infraestructura tecnológica.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Habilidades Blandas</h2>
+      <ul>
+        <li>Liderazgo efectivo y motivación de equipos.</li>
+        <li>Comunicación clara y asertiva.</li>
+        <li>Resolución de conflictos.</li>
+        <li>Capacidad de análisis y toma de decisiones.</li>
+        <li>Trabajo bajo presión y enfoque en resultados.</li>
+      </ul>
+    </div>
+
+    <div class="card full">
+      <h2>Proyectos Destacados</h2>
+      <ul>
+        <li>Diseño y desarrollo de páginas web corporativas funcionales y responsivas.</li>
+        <li>Implementación de sistemas de seguridad digital y control de accesos.</li>
+        <li>Optimización de infraestructura tecnológica para mejorar el rendimiento.</li>
+        <li>Participación en proyectos de transformación digital.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Herramientas y Tecnologías</h2>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Windows Server</span>
+      <span class="tag">Office 365</span>
+      <span class="tag">Redes</span>
+    </div>
+
+    <div class="card">
+      <h2>Fortalezas Profesionales</h2>
+      <ul>
+        <li>Alto sentido de responsabilidad y compromiso.</li>
+        <li>Capacidad de liderazgo y organización.</li>
+        <li>Adaptabilidad a nuevas tecnologías.</li>
+        <li>Enfoque en la mejora continua.</li>
+      </ul>
+    </div>
+
+    <div class="card full">
+      <h2>Objetivo Profesional</h2>
+      <p>
+        Continuar desarrollándome prof
